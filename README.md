@@ -27,7 +27,7 @@ GNU GPL v3.0
 
 
 ### Video of OpenVisSim in action
-[Video of ACTIVE in action](hhttps://www.dropbox.com/s/3gtd35s93s5xraj/screencapture_acuity.wmv?dl=0 "ACTIVE in action")
+[Video of ACTIVE in action](https://www.dropbox.com/s/3gtd35s93s5xraj/screencapture_acuity.wmv?dl=0)
 
 ### Acknowledgments
 Development of the simulator was supported by Fight for Sight (UK) and by the NIHR Biomedical Research Centre located at (both) Moorfields Eye Hospital and UCL Institute of Ophthalmology.
