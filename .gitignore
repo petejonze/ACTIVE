@@ -1,0 +1,13 @@
+#############
+## ivis
+#############
+
+admin/
+.svn/
+__TRASH/
+_private/
+bin/
+logs/
+
+*.asv
+*.m~

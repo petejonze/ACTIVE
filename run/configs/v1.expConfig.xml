@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<script>acuity_v3b.m</script>
+	<ptrVersion>0.7</ptrVersion>
+	
+	<params>
+		<basicParams>
+			<introText>aaaa\n\nbbbb\\n\nPlease respond as ACCURATELY as you can\n\n- Press any button to begin the experiment -</introText>
+			<blockIntroText>Press any button to begin</blockIntroText>
+			<debriefText>All done. Thanks for playing</debriefText>
+			<debugMode>true</debugMode>
+			<nBlocks>1</nBlocks>
+			<breakAfterBlock>[]</breakAfterBlock>
+			<giveEndOfBlockFeedback>true</giveEndOfBlockFeedback>
+			<videoAfterNTrials>3</videoAfterNTrials> <!-- displays before first trial, and before every Nth trial subsequently -->
+			<nSecsRqdToBreakVid>.35</nSecsRqdToBreakVid> <!-- can also be broken manually by the experimenter -->
+			<minVidTime>8</minVidTime> <!-- 8 -->
+			<classifierType>box</classifierType>
+			<config>$EXP\run\configs\IvConfig_v3.xml</config>
+		</basicParams>
+		
+		<graphicParams>
+			<targFrameRate>30</targFrameRate>
+			<testScreenNum>1</testScreenNum> <!-- 1, 2 -->
+			<fullScreen>true</fullScreen>
+			<testScreenWidth>2560</testScreenWidth> <!-- 1920 -->
+			<testScreenHeight>1600</testScreenHeight> <!-- 1080, 1440 -->
+			<viewDist_cm>84</viewDist_cm> <!-- 100 -->
+			<monitorWidth_cm>64</monitorWidth_cm> <!-- 36.5 -->
+			<monitorHeight_cm>40</monitorHeight_cm> <!--   -->
+			<maxFreq_cpd>30.689</maxFreq_cpd> <!-- 36.067, 40.609, 46.410 -->
+            <gammaConfig>gammaTables-15-Jul-2013.mat</gammaConfig>
+		</graphicParams>
+		
+		<trialParams>				
+			<d>.4</d> <!--duration of stimulus = 400ms-->
+			<PreSI>0.3</PreSI> <!-- pre-stimulus interval = 300ms-->
+			<PostSI>0.3</PostSI> <!--post stimulus interval == 300ms-->
+			<giveCue>true</giveCue> <!--give cue before each observation interval-->
+			<giveFeedback>true</giveFeedback> <!--give feedback after each trial-->
+			<maxDuration>9999</maxDuration> <!-- seconds. Presently for eyetrack mode only -->
+		</trialParams>
+		
+		<graphicStimParams>
+			<res>[512 512]</res> <!--[323 323] n pixels-->
+			<phase>0</phase> <!--Phase of underlying sine grating (degrees)-->
+			<sc>90.0</sc> <!--Spatial constant of the exponential "hull" (ie. the "sigma" value in the exponential function)-->
+			<contrast>1</contrast> <!--Contrast of grating. Freq adapted dynamically-->
+			<rotAngle>90</rotAngle>
+			<scale>1</scale> 
+			<maxVelocity>0</maxVelocity>  <!-- 512 -->
+			<maxRotationVelocity>0</maxRotationVelocity> 
+			<nPoints>1</nPoints> 
+			<screenMargin>.05</screenMargin> <!-- normalised exclusion region -->
+			<minDistFromPrev>8</minDistFromPrev>
+			<maxDistFromPrev>8</maxDistFromPrev> <!-- in degrees visual angle -->
+		</graphicStimParams>
+		
+		<audioStimParams> <!-- not used -->
+			<Fs>44100</Fs> 
+			<wd>0.01</wd> <!-- 10ms window which occurs at start and end of each sound so it doesnt come on too abruptly-->
+			<cf>1000</cf> 
+			<dbSPL>80</dbSPL> <!--intensity the stimulus is presented at (dB)-->
+
+			<wav_dbSPL>90</wav_dbSPL>
+			
+			<testChans>[1]</testChans>
+			<debugLevel>0</debugLevel>
+		</audioStimParams>
+		
+		<adaptParams>
+			<startVal>0.8768</startVal> <!-- 1.4, cycles per degrees - will be converted to an integer index -->
+			<stepSize>[1]</stepSize> <!-- n integer-index steps -->
+			<downMod>2</downMod>
+			<nReversals>[6]</nReversals>
+			<nUp>1</nUp>
+			<nDown>1</nDown>
+			<isAbsolute>true</isAbsolute>			
+			<minVal></minVal> <!-- will be overwritten -->
+			<maxVal></maxVal> <!-- max frequency of sine grating (cycles per degree)-->
+			<minNTrials>15</minNTrials> <!-- 15 -->
+			<maxNTrials>50</maxNTrials> <!-- 50 -->
+			<verbosity>2</verbosity>
+		</adaptParams>
+	</params>
+</config>
