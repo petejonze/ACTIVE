@@ -3,8 +3,9 @@ Automated preferentrial looking acuity test for infants
 
 ### System Requirements
 **Hardware:**
-- The system was developed with a Tobii x120, and should support most Tobii models
+- The system was developed with a Tobii x120, and should support most Tobii models. Technically any eyetracker can be connected via the "ivis" interface (the test itself just pulls data from ivis, and so is device agnostic)
 - A high resolution monitor is also required
+- For accurate data, the monitor needs to be calibrated with a photometer
 
 **Programming language:**
 - Matlab 2012 or newer, running on Windows, Mac, or Linux (32 or 64 bit). Note that older versions of Matlab will not work, due to the heavy reliance on relatively modern, Object-Oriented features - sorry.
