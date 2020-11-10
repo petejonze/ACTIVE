@@ -21,7 +21,7 @@ Automated preferentrial looking acuity test for infants
 GNU GPL v3.0
 
 ### To cite and for more info
-[Jones, P. R., Kalwarowsky, S., Atkinson, J., Braddick, O. J. & Nardini, M. (2014). Automated measurement of resolution acuity in infants using remote eye-tracking, Investigative Ophthalmology and Vision Science, 55(12):8102-8110, doi:[10.1167/iovs.14-15108]] https://iovs.arvojournals.org/article.aspx?articleid=2212669)
+[Jones, P. R., Kalwarowsky, S., Atkinson, J., Braddick, O. J. & Nardini, M. (2014). Automated measurement of resolution acuity in infants using remote eye-tracking, Investigative Ophthalmology and Vision Science, 55(12):8102-8110, doi:[10.1167/iovs.14-15108]](https://iovs.arvojournals.org/article.aspx?articleid=2212669)
 
 [Jones, P. R., Kalwarowsky, S., Braddick, O. J., Atkinson, J. & Nardini, M. (2015). Optimizing the rapid measurement of detection thresholds in infants, Journal of Vision, 15(11):2, doi:[10.1167/15.11.2]](https://jov.arvojournals.org/article.aspx?articleid=2423009)
 
